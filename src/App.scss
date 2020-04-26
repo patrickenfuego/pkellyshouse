@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
 
+//Global stuff
 $fontRoboto: "Roboto";
 $backgroundColor: #66c08c;
 
@@ -16,7 +17,7 @@ body {
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
 }
-
+//navbar styling
 .navbar {
     font-weight: 800;
     font-family: $fontRoboto;
@@ -41,7 +42,7 @@ body {
         }
     }
 }
-
+//footer styling
 .footer-container {
     position: relative;
     bottom: 0;
@@ -148,7 +149,7 @@ body {
         }
     }
 }
-
+//landing page styling
 .landing-area {
     background-color: $backgroundColor;
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
@@ -194,7 +195,7 @@ body {
             }
         }
     }
-
+    //dynamic background animations
     .circles {
         top: 0;
         left: 0;
