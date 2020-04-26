@@ -7,6 +7,7 @@ $backgroundColor: #66c08c;
 html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 body {
     height: 100vh;
@@ -26,7 +27,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 2;
+    z-index: 10;
     animation: moveDown 0.5s ease-in-out;
 
     .btn-login {
@@ -309,4 +310,31 @@ body {
 
 .about-area {
     height: 100vh;
+    font: $fontRoboto;
+    nav {
+        border-bottom: 2px solid #dee2e6;
+    }
+    nav > a {
+        color: #000000;
+        font-size: 3vw;
+        @media screen and (max-width: 600px) {
+            font-size: 20px;
+        }
+    }
+}
+
+.tab-container {
+    background-color: $backgroundColor;
+    width: 100vw;
+    height: 100vh;
+
+    .inner-container {
+        background-color: #fff;
+        width: 80%;
+        height: 100vh;
+        margin: 0 auto;
+        @media screen and (max-width: 600px) {
+            width: 90%;
+        }
+    }
 }
