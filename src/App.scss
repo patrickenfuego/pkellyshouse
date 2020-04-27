@@ -9,9 +9,7 @@ html {
     box-sizing: border-box;
     overflow-x: hidden;
 }
-body {
-    height: 100vh;
-}
+
 *,
 *:before,
 *:after {
@@ -79,6 +77,10 @@ body {
                 &:nth-child(4) {
                     //font-size: 2.02rem;
                     font-size: 1.79rem;
+                }
+                &:nth-child(5) {
+                    font-size: 2.02rem;
+                    //font-size: 1.79rem;
                 }
             }
         }
@@ -309,29 +311,60 @@ body {
 }
 
 .about-area {
-    height: 100vh;
+    min-height: 100%;
     font: $fontRoboto;
     nav {
         border-bottom: 2px solid #dee2e6;
     }
     nav > a {
         color: #000000;
-        font-size: 3vw;
-        @media screen and (max-width: 600px) {
+        font-size: 2vw;
+        @media screen and (max-width: 800px) {
             font-size: 20px;
         }
     }
+    //Jumbotron and intro tab
+    .jumbotron-custom {
+        background-color: #fafafa;
+        h4 {
+            display: inline;
+        }
+        img {
+            width: 28px;
+            height: 28px;
+            padding-bottom: 5px;
+        }
+    }
+    .intro-tab {
+        h2 {
+            margin-left: 32px;
+        }
+        .card-style {
+            width: 18rem;
+            //font-size: 2vw;
+            @media screen and (max-width: 800px) {
+                width: 15vh;
+                height: 10vw;
+                img {
+                    width: auto;
+                    height: auto;
+                }
+            }
+        }
+    }
 }
-
+//layout container for all nav pages besides the landing page
 .tab-container {
     background-color: $backgroundColor;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
 
     .inner-container {
         background-color: #fff;
         width: 80%;
-        height: 100vh;
+        height: 100%;
+        min-height: 100vh;
         margin: 0 auto;
         @media screen and (max-width: 600px) {
             width: 90%;

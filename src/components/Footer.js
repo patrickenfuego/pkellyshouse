@@ -43,10 +43,14 @@ const Footer = (props) => {
                     title="Media"
                     className="btn btn-link media-btns"
                   >
-                    <Dropdown.Item eventKey="1">Action</Dropdown.Item>
-                    <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
-                    <Dropdown.Item eventKey="3">
-                      Something else here
+                    <Dropdown.Item eventKey="1" href="/movies">
+                      Movies
+                    </Dropdown.Item>
+                    <Dropdown.Item eventKey="2" href="/music">
+                      Music
+                    </Dropdown.Item>
+                    <Dropdown.Item eventKey="3" href="/games">
+                      Video Games
                     </Dropdown.Item>
                   </DropdownButton>
                 </>

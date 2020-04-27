@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import {
   faLinkedin,
   faDiscord,
-  faGithubSquare
+  faGithubSquare,
+  faStackOverflow
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
@@ -35,6 +36,11 @@ const iconArray = [
     name: "discord",
     icon: faDiscord,
     link: "https://discordapp.com/users/patrickenfuego#1090"
+  },
+  {
+    name: "stackOverflow",
+    icon: faStackOverflow,
+    link: "https://stackoverflow.com/users/3358467/fuegojohnson"
   }
 ];
 //carousel pics and captions
