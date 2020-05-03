@@ -318,7 +318,7 @@ html {
     }
     nav > a {
         color: #000000;
-        font-size: 2vw;
+        font-size: 30px;
         @media screen and (max-width: 800px) {
             font-size: 20px;
         }
@@ -330,28 +330,15 @@ html {
             display: inline;
         }
         img {
-            width: 100%;
+            width: 28px;
             height: 28px;
             padding-bottom: 5px;
         }
     }
-    .intro-tab {
-        height: 100vh;
-        h2 {
-            margin-left: 32px;
-        }
-        .card-style {
-            width: 18rem;
-            margin: auto;
-            @media screen and (max-width: 800px) {
-                width: 11vh;
-                height: 10vw;
-                img {
-                    width: 100%;
-                    height: auto;
-                }
-            }
-        }
+    .card-style {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
     }
 }
 //layout container for all nav pages besides the landing page
