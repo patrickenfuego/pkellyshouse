@@ -7,45 +7,51 @@ import Intro from "./Intro";
 const cardArray = [
   {
     img: "/assets/images/logo512.png",
-    alt: "Some alt text",
-    title: "Card Title",
+    alt: "ReactJS",
+    title: "ReactJS",
     body:
-      "Some quick example text to build on the card title and make up the bulk of the card's content."
+      "React is one of the hottest web dev libraries on the planet right now, and with no signs of slowing down, it seemed like a good choice for my first website. It's also extremely sought after in the job market, which doesn't hurt.",
+    link: "stuff"
   },
   {
     img: "/assets/images/powershell.png",
-    alt: "Some alt text",
-    title: "Card Title",
+    alt: "PowerShell",
+    title: "PowerShell",
     body:
-      "Some quick example text to build on the card title and make up the bulk of the card's content."
+      "PowerShell is something I needed to learn for my current job as a Windows Security Admin. I used to hate it, but in the last few months I've learned to appreciate how truly powerful it is (once I got past the weird syntax).",
+    link: "stuff"
   },
   {
     img: "/assets/images/azureAD.png",
-    alt: "Some alt text",
-    title: "Card Title",
+    alt: "Azure Active Directory",
+    title: "Azure Active Directory",
     body:
-      "Some quick example text to build on the card title and make up the bulk of the card's content."
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    link: "stuff"
   },
   {
     img: "/assets/images/spring_logo.png",
     alt: "Some alt text",
     title: "Card Title",
     body:
-      "Some quick example text to build on the card title and make up the bulk of the card's content."
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    link: "stuff"
   },
   {
-    img: "/assets/images/pk_logo.png",
+    img: "/assets/images/python.png",
     alt: "Some alt text",
     title: "Card Title",
     body:
-      "Some quick example text to build on the card title and make up the bulk of the card's content."
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    link: "stuff"
   },
   {
-    img: "/assets/images/pk_logo.png",
+    img: "/assets/images/metasploit.png",
     alt: "Some alt text",
     title: "Card Title",
     body:
-      "Some quick example text to build on the card title and make up the bulk of the card's content."
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    link: "stuff"
   }
 ];
 

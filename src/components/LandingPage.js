@@ -8,7 +8,7 @@ const LandingPage = (props) => {
         <h1>{props.title}</h1>
         <h4>{props.subTitle}</h4>
         <Container className="carousel">
-          <Row className="justify-content-md-center">
+          <Row className="justify-content-md-center" c>
             <Col lg="auto">
               <Carousel>
                 {props.pics.map((item, index) => (
@@ -41,22 +41,3 @@ const LandingPage = (props) => {
 };
 
 export default LandingPage;
-
-// <Carousel.Item>
-//   <img src="/carousel1.png" alt="First slide" />
-//   <Carousel.Caption>
-//     <p>Come see how good I look 😎</p>
-//   </Carousel.Caption>
-// </Carousel.Item>
-// <Carousel.Item>
-//   <img src="/carousel2.jpg" alt="Second slide" />
-//   <Carousel.Caption>
-//     <p>My niece, Maya Papaya</p>
-//   </Carousel.Caption>
-// </Carousel.Item>
-// <Carousel.Item>
-//   <img src="/carousel3.png" alt="Third slide" />
-//   <Carousel.Caption>
-//     <p>I'm kind of a big deal...</p>
-//   </Carousel.Caption>
-// </Carousel.Item>

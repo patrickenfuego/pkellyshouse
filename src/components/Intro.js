@@ -36,7 +36,7 @@ const Intro = (props) => {
                 <Card.Body>
                   <Card.Title>{card.title}</Card.Title>
                   <Card.Text>{card.body}</Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <Button variant="primary">Check it out!</Button>
                 </Card.Body>
               </Card>
             ))}
